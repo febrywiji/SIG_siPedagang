@@ -1,3 +1,3 @@
 @extends('layouts.master')
 
-@section('title','WELCOME')
+@section('title', 'Gripa - Sistem Informasi Pedagang')

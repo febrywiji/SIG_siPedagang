@@ -1,10 +1,10 @@
 <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+    <strong>Copyright &copy; 2024-2025 <a href="https://www.gripa.com">Gripa</a>.</strong>
     All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 3.2.0
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 1.0
     </div>
-  </footer>
+</footer>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
@@ -48,5 +48,13 @@
 <script src="{{asset('AdminLTE')}}/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{asset('AdminLTE')}}/dist/js/pages/dashboard.js"></script>
+
+<script src="{{asset('leaflet')}}/leaflet.js"></script>
+<script src="{{asset('leaflet')}}/leaflet-src.esm.js"></script>
+<script src="{{asset('leaflet')}}/leaflet-src.js"></script>
+<script src="{{asset('leaflet')}}/leaflet-src.js.map"></script>
+<script src="{{asset('leaflet')}}/leaflet.js.map"></script>
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+<@extends('layouts.map')
 </body>
 </html>
